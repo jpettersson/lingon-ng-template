@@ -1,0 +1,17 @@
+{
+  "name": "angular-project-template",
+  "version": "0.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jpettersson/orangejuice-ng-template.git"
+  },
+  "devDependencies": {
+    "orangejuice": "*",
+    "bower": "~1.2.2",
+    "karma": "~0.10.0",
+    "karma-jasmine": "~0.1.0",
+    "karma-chrome-launcher": "*",
+    "gulp-html2js": "*"
+  }
+}
