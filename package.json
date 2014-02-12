@@ -9,6 +9,6 @@
   "devDependencies": {
     "orangejuice": "~0.1.0",
     "bower": "~1.2.2",
-    "gulp-ng-html2js": "*"
+    "gulp-ng-html2js": "philipvonbargen/gulp-ng-html2js"
   }
 }
