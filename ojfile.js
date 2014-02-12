@@ -1,13 +1,14 @@
 #!/usr/bin/env node
 
 var oj = require('orangejuice');
-var html2js = require('gulp-html2js');
+var ngHtml2js = require('gulp-ng-html2js');
 
 oj.sourcePath = 'source';
 oj.buildPath = 'build';
 
 oj.preProcessor('ngt', function() {
-  return html2js({
+  return ngHtml2js({
+    moduleName: 'templates',
     base: 'source'
-  })
+  });
 });
