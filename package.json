@@ -4,10 +4,10 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git@github.com:jpettersson/orangejuice-ng-template.git"
+    "url": "git@github.com:jpettersson/lingon-ng-template.git"
   },
   "devDependencies": {
-    "orangejuice": "~0.2.0",
+    "lingon": "~0.4.0",
     "bower": "~1.2.2",
     "karma": "~0.10.0",
     "karma-jasmine": "~0.1.0",

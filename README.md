@@ -1,22 +1,23 @@
-A project template for building Angular.js apps with [Orangejuice](https://github.com/jpettersson/orangejuice)
+A project template for building Angular.js apps with [Lingon](https://github.com/jpettersson/lingon)
 
 ## Get started
 
 **Install dependencies:**
 
 ```
-npm install .
+npm install
+bower install
 ```
 
 **Use:**
 
 ```
 Build once and quit:
-./ojfile.js build
+./lingon.js build
 
 Start the server: 
-./ojfile.js
+./lingon.js
 
 Start the server on a custom port:
-./ojfile.js server -p 1111
+./lingon.js server -p 1111
 ```
