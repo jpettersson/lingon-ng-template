@@ -1,13 +1,14 @@
 #!/usr/bin/env node
 
 var lingon = require('lingon');
-var html2js = require('gulp-html2js');
+var ngHtml2js = require('lingon-ng-html2js');
 
 lingon.sourcePath = 'source';
 lingon.buildPath = 'build';
 
 lingon.preProcessor('ngt', function() {
-  return html2js({
+  return ngHtml2js({
+    moduleName: 'templates',
     base: 'source'
-  })
+  });
 });

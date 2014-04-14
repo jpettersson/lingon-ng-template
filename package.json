@@ -7,11 +7,11 @@
     "url": "git@github.com:jpettersson/lingon-ng-template.git"
   },
   "devDependencies": {
-    "lingon": "~0.4.0",
-    "bower": "~1.2.2",
+    "lingon": "~0.6.0",
+    "bower": "~1.3.2",
     "karma": "~0.10.0",
     "karma-jasmine": "~0.1.0",
     "karma-chrome-launcher": "*",
-    "gulp-html2js": "*"
+    "lingon-ng-html2js": "~0.1.6"
   }
 }
