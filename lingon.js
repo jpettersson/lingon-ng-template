@@ -9,6 +9,6 @@ lingon.buildPath = 'build';
 lingon.preProcessor('ngt', function() {
   return ngHtml2js({
     moduleName: 'templates',
-    base: 'source'
+    base: lingon.sourcePath
   });
 });
