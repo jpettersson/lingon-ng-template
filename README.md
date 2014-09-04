@@ -20,4 +20,7 @@ Start the server:
 
 Start the server on a custom port:
 ./lingon.js server -p 1111
+
+Run unit tests:
+npm test
 ```
