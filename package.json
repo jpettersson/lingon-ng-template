@@ -6,12 +6,20 @@
     "type": "git",
     "url": "git@github.com:jpettersson/lingon-ng-template.git"
   },
+  "scripts": {
+    "test": "./lingon.js build && ./test.sh --single-run"
+  },
   "devDependencies": {
-    "lingon": "~0.8.0",
     "bower": "~1.3.2",
-    "karma": "~0.10.0",
-    "karma-jasmine": "~0.1.0",
-    "karma-chrome-launcher": "*",
+    "gulp-autoprefixer": "0.0.7",
+    "karma": "^0.12.21",
+    "karma-coverage": "^0.2.5",
+    "karma-jasmine": "^0.1.5",
+    "karma-ng-html2js-preprocessor": "^0.1.0",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-coverage": "^0.2.6",
+    "lingon": "~1.4.0",
     "lingon-ng-html2js": "~0.1.6"
   }
+
 }
